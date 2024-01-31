@@ -9,4 +9,4 @@ github_repo_name: sphinxcontrib-skeleton
 github_user: username
 project_name: Skeleton
 project_slug: skeleton
-short_description: the skeleton of a sphinx extension in the sphinxcontrib community
+short_description: An automatic build of the @sphinx-contrib/copier-sphinxcontrib copier template
