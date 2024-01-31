@@ -6,7 +6,7 @@ author_first_name: Firstname
 author_last_name: Lastname
 creation_year: "2024"
 github_repo_name: sphinxcontrib-skeleton
-github_user: username
+github_user: sphinx-contrib
 project_name: Skeleton
 project_slug: skeleton
 short_description: An automatic build of the @sphinx-contrib/copier-sphinxcontrib copier template
