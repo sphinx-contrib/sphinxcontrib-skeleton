@@ -26,12 +26,12 @@ Skeleton
     :target: https://pypi.org/project/sphinxcontrib-skeleton/
     :alt: PyPI version
 
-.. image:: https://img.shields.io/github/actions/workflow/status/username/sphinxcontrib-skeleton/unit.yaml?logo=github&logoColor=white
-    :target: https://github.com/username/sphinxcontrib-skeleton/actions/workflows/unit.yaml
+.. image:: https://img.shields.io/github/actions/workflow/status/sphinx-contrib/sphinxcontrib-skeleton/unit.yaml?logo=github&logoColor=white
+    :target: https://github.com/sphinx-contrib/sphinxcontrib-skeleton/actions/workflows/unit.yaml
     :alt: build
 
-.. image:: https://img.shields.io/codecov/c/github/username/sphinxcontrib-skeleton?logo=codecov&logoColor=white
-    :target: https://codecov.io/gh/username/sphinxcontrib-skeleton
+.. image:: https://img.shields.io/codecov/c/github/sphinx-contrib/sphinxcontrib-skeleton?logo=codecov&logoColor=white
+    :target: https://codecov.io/gh/sphinx-contrib/sphinxcontrib-skeleton
     :alt: Test Coverage
 
 .. image:: https://img.shields.io/readthedocs/sphinxcontrib-skeleton?logo=readthedocs&logoColor=white
