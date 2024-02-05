@@ -20,7 +20,7 @@ logger = logging.getLogger(__name__)
 
 
 class demo_node(nodes.General, nodes.Element):
-    """the demo node."""
+    """The demo node."""
 
     pass
 
