@@ -46,4 +46,4 @@ the skeleton of a sphinx extension in the sphinxcontrib community
 Credits
 -------
 
-This package was created with `Copier <https://copier.readthedocs.io/en/latest/>`__ and the `@sphinx-contrib/copier-sphinxcontrib <https://github.com/sphinx-contrib/copier-sphinxcontrib>`__ 0.0.0 extension template.
+This package was created with `Copier <https://copier.readthedocs.io/en/latest/>`__ and the `@sphinx-contrib/copier-sphinxcontrib <https://github.com/sphinx-contrib/copier-sphinxcontrib>`__ 0.0.1-3-gdb9fddb extension template.
