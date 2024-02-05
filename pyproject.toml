@@ -56,7 +56,7 @@ doc = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["sphinxcontrib/skeleton"]
+only-include = ["sphinxcontrib"]
 
 [tool.hatch.envs.default]
 dependencies = [
