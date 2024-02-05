@@ -12,7 +12,7 @@ from datetime import datetime
 project = "Skeleton"
 author = "Firstname Lastname"
 copyright = f"2024-{datetime.now().year}, {author}"
-release = "0.0.0"
+release = "0.0.2"
 
 # -- General configuration -----------------------------------------------------
 extensions = [
@@ -22,6 +22,7 @@ extensions = [
     "sphinx.ext.intersphinx",
     "sphinx_design",
     "autoapi.extension",
+    "sphinxcontrib.skeleton",
 ]
 exclude_patterns = ["**.ipynb_checkpoints"]
 templates_path = ["_template"]

@@ -11,7 +11,7 @@ from sphinx.application import Sphinx
 from .demo_directive import DemoDirective
 from .demo_role import _NODE_VISITORS, DemoRole, demo_node
 
-__version__ = "0.0.0"
+__version__ = "0.0.2"
 __author__ = "Firstname Lastname"
 __email__ = "firstname.lastname@domain.io"
 

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "sphinxcontrib-skeleton"
-version = "0.0.0"
+version = "0.0.2"
 description = "the skeleton of a sphinx extension in the sphinxcontrib community"
 keywords = [
   "skeleton",
@@ -56,7 +56,7 @@ doc = [
 ]
 
 [tool.hatch.build.targets.wheel]
-packages = ["sphinxcontrib/skeleton"]
+only-include = ["sphinxcontrib"]
 
 [tool.hatch.envs.default]
 dependencies = [
@@ -69,10 +69,10 @@ post-install-commands = ["pre-commit install"]
 [tool.commitizen]
 tag_format = "v$major.$minor.$patch$prerelease"
 update_changelog_on_bump = false
-version = "0.0.0"
+version = "0.0.2"
 version_files = [
     "pyproject.toml:version",
-    "skeleton/__init__.py:__version__",
+    "sphinxcontrib/skeleton/__init__.py:__version__",
     "docs/conf.py:release",
 ]
 
@@ -104,7 +104,7 @@ docstring-quotes = "double"
 convention = "google"
 
 [tool.coverage.run]
-source = ["sphinxcontrib/skeleton"]
+source = ["sphinxcontrib.skeleton"]
 
 [tool.doc8]
 ignore = ["D001"] # we follow a 1 line = 1 paragraph style

@@ -1,6 +1,4 @@
 """Test sphinxcontrib.skeleton extension."""
-
-
 import pytest
 from bs4 import BeautifulSoup, formatter
 
@@ -8,6 +6,7 @@ from bs4 import BeautifulSoup, formatter
 # without it all your regression will be modified by commit hooks
 # and fail in your CI
 fmt = formatter.HTMLFormatter(indent=2, void_element_close_prefix=" /")
+
 
 # explore the warnings of the build to check if the latex node is skipped
 @pytest.mark.sphinx("epub", testroot="role")
